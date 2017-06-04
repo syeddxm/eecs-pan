@@ -8,13 +8,13 @@ function init() {
   }
 }
 
-/*
+
 function orientationCallback(eventData) {
   document.getElementById("count").innerHTML = Number( document.getElementById("count").innerHTML) + 1;
   document.getElementById("tilt").innerHTML = eventData.gamma;
   document.getElementById("pitch").innerHTML = eventData.beta;
+  document.getElementById("text").innerHTML= eventData.gamma + " " + eventData.beta;
 }
-*/
 
 alert("javascript loaded");
 window.onload = init;
