@@ -12,3 +12,25 @@ body {
   position: relative;
 
 }
+
+#ball {
+  left: 100px;
+  top: 0px;
+  position: absolute;
+  z-index: 2;
+}
+
+#center {
+  left: 0px;
+  position: absolute;
+  z-index: 1;
+}
+
+#text {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 1000;
+  color: black;
+
+}
